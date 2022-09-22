@@ -74,7 +74,13 @@ class Calculator {
     }
     
     updateDisplay(){
-        previousOperand.textContent = this.previousOperandText;
+        if (this.operator == undefined) {
+            previousOperand.textContent = this.previousOperandText;
+        }
+        else {
+            previousOperand.textContent = this.previousOperandText + this.operator;
+        }
+
         currentOperand.textContent = this.currentOperandText;    }
 
 }
