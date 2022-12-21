@@ -1,4 +1,4 @@
-﻿### Calculator app in HTML, CSS & JavaScript
+﻿# Calculator app in HTML, CSS & JavaScript
 
 ## Steps
 
